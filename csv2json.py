@@ -4,7 +4,6 @@ import csv
 import pandas as pd
 import os
 from setuptools import setup, find_packages
-from pandas.io.json import json_normalize
 
 
 @st.cache

@@ -49,7 +49,6 @@ with st.form('my_form1'):
                 csvReader = csv.DictReader(csvFile)
                 for row in csvReader:
                     data.append(row)
-            # convert python jsonArray to JSON String and write to file
                 jsonString = json.dumps(data, indent=4)
                 st.json(jsonString)
 
